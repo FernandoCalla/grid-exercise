@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Cuadricula from './Cuadriculas'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Cuadricula/>
   </React.StrictMode>,
   document.getElementById('root')
 );
